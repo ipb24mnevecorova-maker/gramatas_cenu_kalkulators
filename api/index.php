@@ -91,7 +91,7 @@ if ($posted_prices) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grāmatu cenu kalkulators</title>
-    <link rel="stylesheet" href="css/style.css?v=<?= filemtime(__DIR__ . '/css/style.css') ?>">
+    <link rel="stylesheet" href="/css/style.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 <script src="js/script.js?v=<?= filemtime(__DIR__ . '/js/script.js') ?>" defer></script>
 </head>
